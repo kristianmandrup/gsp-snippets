@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[<g:createLink controller="${1:book}" action="${2:show}" ${3:params="[${4:name}:${5:'Grails in Action'}]"} />]]>
+	</content>
+	<tabTrigger>gcreatelink</tabTrigger>
+	<scope>text.html.gsp</scope>
+	<description>Creates a link that can be used in a href, JavaScript, AJAX call, etc</description>
+</snippet>

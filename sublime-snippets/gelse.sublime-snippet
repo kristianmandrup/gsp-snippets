@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[<g:else>
+	$1
+</g:else>]]>
+	</content>
+	<tabTrigger>gelse</tabTrigger>
+	<scope>text.html.gsp</scope>
+	<description>The logical else tag</description>
+</snippet>

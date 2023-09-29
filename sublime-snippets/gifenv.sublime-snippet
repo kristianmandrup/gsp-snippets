@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[<g:if env="${1:development}" ${2:test="\${${3:true}\}"}>
+	$4
+</g:if>]]>
+	</content>
+	<tabTrigger>gifenv</tabTrigger>
+	<scope>text.html.gsp</scope>
+    <description>The logical if tag to switch on an expression and/or current environment</description>
+</snippet>

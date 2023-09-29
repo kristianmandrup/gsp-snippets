@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[<g:javascript library="${1:name}"/>]]>
+	</content>
+	<tabTrigger>gjslib</tabTrigger>
+	<scope>text.html.gsp</scope>
+    <description>Includes a JavaScript library</description>
+</snippet>

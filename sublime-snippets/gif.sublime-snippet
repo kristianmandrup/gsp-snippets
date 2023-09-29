@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[<g:if test="\${${1:true}}">
+	$2
+</g:if>]]>
+	</content>
+	<tabTrigger>gif</tabTrigger>
+	<scope>text.html.gsp</scope>
+    <description>The logical if tag to switch on an expression</description>
+</snippet>
