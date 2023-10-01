@@ -1,8 +1,8 @@
 {
   "name": "gsp-snippets",
   "displayName": "GSP snippets",
-  "description": "GSP snippets for Grails view development",
-  "version": "0.0.1",
+  "description": "Groovy Server Page (GSP) snippets for Grails view development",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.82.0"
   },

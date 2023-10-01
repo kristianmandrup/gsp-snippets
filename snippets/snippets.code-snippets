@@ -1,4 +1,9 @@
 {
+  "dollarsign": {
+    "body": ["\\${$0}"],
+    "description": "${}",
+    "prefix": "g"
+  },
   "gactionsubmit": {
     "body": [
       "<g:actionSubmit value=\"${1:text}\" action=\"${2:action}\" ${3:onclick=\"${4:jsCode}\"} >"

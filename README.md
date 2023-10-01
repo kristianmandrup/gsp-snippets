@@ -1,65 +1,62 @@
-# gsp-snippets README
+# Gsp snippets
 
-This is the README for your extension "gsp-snippets". After writing up a brief description, we recommend including the following sections.
+Groovy Server Pages (GSP) snippets for use with Groovy on Grails.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Snippets included
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- `dollarsign`: ${}
+- `gactionsubmit`: Generates a submit button that maps to a specific action",
+- `gcheckbox`: Generates a checkbox form field
+- `collect`: Uses the Groovy JDK collect method to transform objects in a list by a expression
+- `gcreatelink`: Creates a link that can be used in a href, JavaScript, AJAX call, etc
+- `geach`: Uses the Groovy JDK each method to iterate the specified list
+- `gelse`: The logical else tag
+- `gelseif`: The logical elseif tag
+- `gelseifenv`: The logical elseif tag for an environment
+- `gfield`: Creates an input field where the user can enter data
+- `gfindall`: Uses the Groovy JDK findAll method to find objects that match the expression
+- `gfor`: Uses the each tag with a range of numbers
+- `gform`: Creates a form that submits to a controller and action
+- `ghid`: Creates a input of type hidden
+- `gif`: The logical if tag to switch on an expression
+- `gifenv`: The logical if tag to switch on an expression and/or current environment
+- `gimg`: Renders an HTML img tag for an image resource
+- `gjs`: Includes inline JavaScript
+- `gjslib`: Includes a JavaScript library
+- `gjssrc`: Includes a JavaScript script
+- `glink`: Creates an html anchor tag with the href set based on the specified parameters
+- `glinkm`: Creates an html anchor tag for the specified named mapping
+- `gmsg`: Resolves a message from the given code and args (if any)
+- `gpwd`: Creates a input of type 'password'
+- `gradio`: Generates a radio button
+- `gradiogroup`: Generates radio button groups
+- `grender`: Applies a template against a model
+- `gselect`: Generates HTML select for the given list
+- `gselectbind`: Generates HTML select for the given list with key-value binding
+- `gset`: Sets the value of a variable accessible with the GSP page
+- `gs`: \"${}\
+- `gtext`: Creates an input of type 'text'
+- `gtextarea`: Creates a HTML text area element
+- `gwhile`: Executes a condition in a loop until the condition returns false
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Snippets are made available only in `.gsp` files
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Currently no settings are available.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release of GSP snippets extension.
 
 **Enjoy!**
