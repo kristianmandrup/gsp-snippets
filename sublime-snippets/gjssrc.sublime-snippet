@@ -1,8 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[<g:javascript src="${1:path}"/>]]>
-	</content>
-	<tabTrigger>gjssrc</tabTrigger>
-	<scope>text.html.gsp</scope>
-    <description>Includes a JavaScript script</description>
-</snippet>

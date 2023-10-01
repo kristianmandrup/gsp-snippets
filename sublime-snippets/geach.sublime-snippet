@@ -1,9 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[<g:each var="${1:item}" in="\${${2:list}}">
-</g:each>]]>
-	</content>
-	<tabTrigger>geach</tabTrigger>
-	<scope>text.html.gsp</scope>
-	<description>Uses the Groovy JDK each method to iterate the specified list</description>
-</snippet>

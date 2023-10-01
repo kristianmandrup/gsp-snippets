@@ -1,8 +1,0 @@
-<snippet>
-	<content>
-		<![CDATA[<g:hiddenField name="${1:name}" value="\${${2:value}\}" />]]>
-	</content>
-	<tabTrigger>ghid</tabTrigger>
-	<scope>text.html.gsp</scope>
-	<description>Creates a input of type hidden</description>
-</snippet>
